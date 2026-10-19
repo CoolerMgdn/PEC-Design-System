@@ -1,0 +1,47 @@
+{
+  "tool": "OpenAI built-in ImageGen",
+  "generatedAt": "2026-09-25",
+  "purpose": "Local Storybook demo images only",
+  "images": [
+    {
+      "file": "landscape-mountains.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: an original demonstration image for a local Storybook carousel and image gallery. Create one standalone landscape photograph, wide 3:2 composition. A calm turquoise alpine lake with layered rugged mountains, gentle warm sunrise light touching the peaks, natural foreground rocks. Balanced composition, believable photographic textures and restrained colors. This is scenery, not a website mockup. No people, signs, text, logos, border, collage or watermark."
+    },
+    {
+      "file": "landscape-coast.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: an original demonstration image for a local Storybook carousel and image gallery. Create one standalone landscape photograph, wide 3:2 composition. A quiet curving sandy beach below a green coastal headland, soft turquoise waves and a pale blue sky, clear gentle daylight, natural realistic coastal textures. Balanced composition suitable for a card or carousel crop. This is scenery, not a website mockup. No people, signs, text, logos, border, collage or watermark."
+    },
+    {
+      "file": "landscape-city.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: an original demonstration image for a local Storybook carousel and image gallery. Create one standalone landscape photograph, wide 3:2 composition. An imaginary contemporary waterfront city at blue hour, warm lit windows in elegant mid-rise buildings reflected in still water, subtle dusky lavender sky. Restrained realistic editorial photography, crisp architecture and calm composition. No identifiable landmarks, people, writing, logos, border, collage or watermark. Not a website mockup."
+    },
+    {
+      "file": "landscape-forest.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: an original demonstration image for a local Storybook gallery and before/after image comparison. Create one standalone landscape photograph, wide 3:2 composition. A sunlit pine forest beside a small still lake, gentle morning mist, green foliage, layered trees reflected in water, warm light shafts. Natural realistic photographic detail, clear sharp focus throughout, balanced composition. No people, buildings, signs, writing, logos, border, collage or watermark. Not a website mockup."
+    },
+    {
+      "file": "cap-front.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original local Storybook product gallery image. Create one standalone square product photograph of a plain sage green six-panel cotton baseball cap, curved brim, matching green stitching and small plain metal back adjuster, absolutely no logo or lettering. Pale warm gray seamless studio backdrop, soft diffuse studio lighting, realistic cotton twill texture, restrained natural colors. No people, hands, props, text, brand, frame, collage, watermark or website interface. View: front three-quarter view, whole cap visible and centered with generous margin."
+    },
+    {
+      "file": "cap-side.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original local Storybook product gallery image. Create one standalone square product photograph of a plain sage green six-panel cotton baseball cap, curved brim, matching green stitching and small plain metal back adjuster, absolutely no logo or lettering. Pale warm gray seamless studio backdrop, soft diffuse studio lighting, realistic cotton twill texture, restrained natural colors. No people, hands, props, text, brand, frame, collage, watermark or website interface. View: exact side profile, brim pointing right, whole cap visible and centered with generous margin."
+    },
+    {
+      "file": "cap-back.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original local Storybook product gallery image. Create one standalone square product photograph of a plain sage green six-panel cotton baseball cap, curved brim, matching green stitching and small plain metal back adjuster, absolutely no logo or lettering. Pale warm gray seamless studio backdrop, soft diffuse studio lighting, realistic cotton twill texture, restrained natural colors. No people, hands, props, text, brand, frame, collage, watermark or website interface. View: back three-quarter view showing the adjustable fabric strap and small metal buckle, whole cap visible and centered with generous margin."
+    },
+    {
+      "file": "cap-detail.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original local Storybook product gallery image. Create one standalone square product photograph of a plain sage green six-panel cotton baseball cap, curved brim, matching green stitching and small plain metal back adjuster, absolutely no logo or lettering. Pale warm gray seamless studio backdrop, soft diffuse studio lighting, realistic cotton twill texture, restrained natural colors. No people, hands, props, text, brand, frame, collage, watermark or website interface. View: macro detail close-up of cotton twill, the curved brim edge and tidy stitching, cap fabric fills most of the image. Soft falloff of focus."
+    },
+    {
+      "file": "product-shoe.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original demonstration product card image for a local Storybook. Create one standalone wide 3:2 studio photograph of a contemporary unbranded cream and muted sage running shoe, three-quarter side view, entire shoe visible on warm pale gray seamless background. Realistic mesh and suede texture, layered rubber sole, soft directional light and gentle contact shadow. Clean silhouette and tasteful product photography. No people, logos, lettering, trademark shapes, text, frame, collage or watermark. Not a website mockup."
+    },
+    {
+      "file": "abstract-card.webp",
+      "prompt": "Use case: product-mockup. Asset type: an original demonstration image for a local Storybook 3D hover card. Create one standalone wide 3:2 product render. A single elegant rounded rectangular matte dark teal membership card at a slight three-quarter angle on a pale warm gray studio surface, subtle embossed abstract concentric arcs and a small metallic copper circular accent, soft studio shadow. No numbers, no letters, no logos, no magnetic strip, no bank or payment branding, no watermark. Complete card with generous margin. Not a website mockup."
+    }
+  ]
+}

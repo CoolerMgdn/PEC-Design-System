@@ -1,0 +1,239 @@
+.catalog-preview {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  min-height: 10rem;
+  padding: 2rem;
+}
+
+@layer base {
+  .catalog-preview > * {
+    max-width: 100%;
+  }
+}
+
+.catalog-preview:is([data-component="accordion"], [data-component="collapse"], [data-component="carousel"], [data-component="chat"], [data-component="list"], [data-component="table"], [data-component="timeline"]) {
+  display: block;
+}
+
+.catalog-preview:is([data-component="accordion"], [data-component="collapse"], [data-component="chat"], [data-component="list"]) {
+  max-width: 56rem;
+  margin-inline: auto;
+}
+
+.catalog-preview[data-component="diff"] > .diff {
+  width: 100%;
+}
+
+.catalog-preview[data-component="timeline"] {
+  overflow-x: auto;
+}
+
+.catalog-preview[data-component="card"] {
+  align-items: flex-start;
+}
+
+.catalog-preview:is([data-component="navbar"], [data-component="tab"]) {
+  display: block;
+}
+
+.catalog-preview[data-component="navbar"] {
+  min-height: 24rem;
+}
+
+.catalog-preview[data-component="megamenu"] {
+  align-items: flex-start;
+  min-height: 28rem;
+}
+
+.catalog-preview[data-component="menu"] {
+  align-items: flex-start;
+}
+
+.catalog-preview[data-component="dock"] {
+  min-height: 16rem;
+}
+
+.catalog-preview[data-component="alert"] {
+  flex-direction: column;
+  align-items: stretch;
+  max-width: 56rem;
+}
+
+.catalog-preview[data-component="progress"] {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.catalog-preview[data-component="tooltip"] {
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  min-height: 16rem;
+  padding: 4rem;
+}
+
+.catalog-preview[data-component="toast"] {
+  min-height: 20rem;
+}
+
+.catalog-preview[data-component="calendar"] {
+  align-items: flex-start;
+  min-height: 28rem;
+}
+
+.catalog-preview:is([data-component="fieldset"], [data-component="validator"]) {
+  display: block;
+}
+
+.catalog-preview:is([data-component="input"], [data-component="select"], [data-component="textarea"], [data-component="file-input"], [data-component="range"], [data-component="otp"], [data-component="label"]) {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.catalog-preview:is([data-component="divider"], [data-component="drawer"], [data-component="footer"], [data-component="hero"]) {
+  display: block;
+}
+
+.catalog-preview[data-component="drawer"] {
+  min-height: 28rem;
+}
+
+.catalog-preview[data-component="hero"] {
+  padding: 0;
+}
+
+.catalog-preview[data-component="indicator"] {
+  gap: 2.5rem;
+}
+
+.catalog-preview[data-component="dropdown"] {
+  justify-content: center;
+  min-height: 28rem;
+}
+
+.catalog-preview[data-component="dropdown"]:has(.dropdown-left) {
+  justify-content: flex-end;
+}
+
+.catalog-preview[data-component="dropdown"]:has(.dropdown-right) {
+  justify-content: flex-start;
+}
+
+.catalog-preview[data-component="dropdown"]:has(> .dropdown > .card) {
+  justify-content: flex-start;
+}
+
+.catalog-preview[data-component="dropdown"]:has(> .dropdown-end > .card) {
+  justify-content: flex-end;
+}
+
+.catalog-preview[data-component="fab"] {
+  min-height: 28rem;
+}
+
+.catalog-preview:is([data-component="mockup-browser"], [data-component="mockup-code"], [data-component="mockup-window"]) {
+  display: block;
+}
+
+.catalog-preview[data-component="mockup-phone"] {
+  justify-content: center;
+}
+
+.catalog-preview[data-component="project-container"] {
+  display: block;
+  gap: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+.catalog-preview[data-component="project-container"] > div > section {
+  outline: 1px dashed color-mix(in oklab, currentColor 35%, transparent);
+  outline-offset: -1px;
+}
+
+.catalog-preview[data-component="project-container"] > div > section > div {
+  outline: 1px solid color-mix(in oklab, currentColor 35%, transparent);
+  outline-offset: -1px;
+}
+
+.catalog-preview[data-component="project-header"] {
+  display: block;
+  gap: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.catalog-preview[data-component="project-footer"] {
+  display: block;
+  gap: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+.catalog-preview[data-component="project-page"] {
+  display: block;
+  min-height: 0;
+  padding: 0;
+}
+
+.catalog-preview[data-component="project-page"] > iframe {
+  display: block;
+  width: 100%;
+  height: 100dvh;
+  border: 0;
+}
+
+.catalog-preview[data-component="project-image"] {
+  display: flow-root;
+  min-height: 0;
+  padding: 0;
+}
+
+.catalog-preview:is([data-component="atom-input"], [data-component="atom-select"], [data-component="atom-textarea"], [data-component="atom-range"], [data-component="atom-link"]) {
+  align-items: flex-start;
+}
+
+.catalog-preview:is([data-component^="molecule-"], [data-component^="organism-"]) {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Toast в примере — внутри рамки истории, а не в углу окна Storybook. */
+.catalog-preview[data-component="molecule-toast"] {
+  position: relative;
+  min-height: 16rem;
+}
+
+.catalog-preview[data-component="molecule-toast"] .toast {
+  position: absolute;
+}
+
+/* Hero — на всю ширину рамки примера, без отступов. */
+.catalog-preview[data-component="organism-hero"] {
+  display: block;
+  padding: 0;
+}
+
+/* Поле даты: раскрытый календарь помещается в рамку примера. */
+.catalog-preview[data-component="molecule-calendar"] {
+  min-height: 28rem;
+}
+
+.catalog-preview[data-component="atom-badge"] {
+  align-items: center;
+}
+
+.catalog-preview[data-component^="foundation-"],
+.catalog-preview[data-component="design-system-intro"] {
+  display: block;
+}
+
+@media (max-width: 40rem) {
+  .catalog-preview {
+    padding: 1rem;
+  }
+}
